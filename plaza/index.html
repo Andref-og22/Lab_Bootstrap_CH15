@@ -47,6 +47,9 @@ Ejercicio 08 · La letra (en las TRES páginas)
   <title>Document</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
   <link href="/styles.css" rel="stylesheet">
 </head>
 <body>
@@ -74,9 +77,49 @@ Ejercicio 08 · La letra (en las TRES páginas)
       </form>
     </div>
   </div>
-</nav>
+  </nav>
+  <section id="bienvenida">
+    <h1>Bienvenidos a nuestros sabores</h1>
+    <p>Si estás aquí es porque eres amante de lo bueno. Conoce más de nosotros aquí</p>
+    <button type="button" class="btn btn-link">
+      Conoce nuestros productos
+    </button>
+    <div class="container">
+      <div class="row">
+          <a href="" class="col-12 col-lg-4">
+            <h3>Fresco</h3>
+            <p>Todo de la mejor calidad</p>
+          </a>
+          <a href="" class="col-12 col-lg-4">
+            <h3>Local</h3>
+            <p>Todo muy cerca de ti</p>
+          </a>
+          <a href="" class="col-12 col-lg-4">
+            <h3>Hecho a mano</h3>
+            <p>Las manos de nuestros artesanos en cada producto</p>
+          </a>
+      </div>
+    </div>
+  </section>
+  <section id="carrusel_inicio">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSpEnANEmpa4h5lIQ_GslNulqgVOd5jsWeGCZK1I6gfg&s=10" class="d-block w-100" alt="sabores tropicales">
+        </div>
+        <div class="carousel-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPqBMgOHv44Yyo7PnY3of56OXnaAjmWzDeQSsCFV337A&s=10" class="d-block w-100" alt="sabores modernos">
+        </div>
+        <div class="carousel-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNgxTSj76XkO_5Z0aAbWDB0oHJUPbqQbDn-w2D1H1yiA&s=10" class="d-block w-100" alt="sabores gaseosos">
+        </div>
+      </div>
+    </div>
+  </section>
   <footer>
-
+    <address id="direccion_footer">Cra 22 # 70-34</address>
+    <p>Cali, Valle del Cauca</p>
+    <address id="contacto_footer">Tel. (345)576 3456</address>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
